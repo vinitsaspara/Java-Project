@@ -48,8 +48,10 @@ public class Score extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        setVisible(false);
-        new Login();
+        if (e.getSource() == submit) {
+            setVisible(false);
+            new Login();
+        }
     }
 
     public static void main(String[] args) {
