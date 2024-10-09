@@ -28,8 +28,8 @@ public class Quiz extends JFrame implements ActionListener {
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/quiz.jpg")); // This is add the image in the
-                                                                                       // // // Frame.
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/q.jpeg")); // This is add the image in the
+        // // // Frame.
         JLabel image = new JLabel(i1); // This is the lable for the image
         image.setBounds(0, 0, 1100, 390);
         add(image); // this statement is add the image
@@ -215,7 +215,7 @@ public class Quiz extends JFrame implements ActionListener {
                 user_answers[count][0] = "";
             } else {
                 user_answers[count][0] = groupOptions.getSelection().getActionCommand(); // give me user selected
-                                                                                         // option
+                // option
             }
 
             for (int i = 0; i < user_answers.length; i++) {
@@ -277,7 +277,7 @@ public class Quiz extends JFrame implements ActionListener {
                     user_answers[count][0] = "";
                 } else {
                     user_answers[count][0] = groupOptions.getSelection().getActionCommand(); // give me user selected
-                                                                                             // option
+                    // option
                 }
 
                 for (int i = 0; i < user_answers.length; i++) {
@@ -299,7 +299,7 @@ public class Quiz extends JFrame implements ActionListener {
                     user_answers[count][0] = "";
                 } else {
                     user_answers[count][0] = groupOptions.getSelection().getActionCommand(); // give me user selected
-                                                                                             // option
+                    // option
                 }
                 count++;
                 start(count);
