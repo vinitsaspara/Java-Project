@@ -13,10 +13,10 @@ public class Login extends JFrame implements ActionListener{
 
         setLayout(null);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/login.jpeg")); // This is add the image in the // Frame.
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/google_quiz.jpeg")); // This is add the image in the // Frame.
         JLabel image = new JLabel(i1); // This is the lable for the image
         add(image); // this statement is add the image
-        image.setBounds(0, 0, 600, 500);
+        image.setBounds(0, 0, 600, 400);
 
         JLabel heading = new JLabel("Simple Minds");
         heading.setBounds(750, 60, 300, 45);
@@ -32,7 +32,7 @@ public class Login extends JFrame implements ActionListener{
         // name.setForeground(Color.BLUE); // give to heading text --> color
         name.setForeground(new Color(30, 144, 254)); // give to heading text --> rgb color value
 
-       tfname = new JTextField(); //input type = text in html.
+        tfname = new JTextField(); //input type = text in html.
         tfname.setBounds(720,180,200,25);
         tfname.setFont(new Font("Times New Roman",Font.BOLD,18));
         add(tfname);
@@ -55,7 +55,7 @@ public class Login extends JFrame implements ActionListener{
         // rules.setBorder(null);
         add(back);
 
-        setSize(1000, 500);
+        setSize(1000, 440);
         setLocation(200, 100);
         setVisible(true);
 
