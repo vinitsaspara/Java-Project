@@ -7,6 +7,7 @@ public class Score extends JFrame implements ActionListener {
 
     public String username;
     public int score;
+    JButton submit;
 
     Score(String username, int score) {
         this.username = username;
@@ -35,14 +36,6 @@ public class Score extends JFrame implements ActionListener {
         lblscore.setBounds(400, 200, 900, 30);
         lblscore.setFont(new Font("Tahoma", Font.PLAIN, 26));
         add(lblscore);
-
-        JButton submit = new JButton("Play Again");
-        submit.setBounds(400, 270, 200, 30);
-        submit.setFont(new Font("Tahoma", Font.PLAIN, 22));
-        submit.setBackground(new Color(30, 100, 230));
-        submit.setForeground(Color.WHITE);
-        submit.addActionListener(this);
-        add(submit);
 
         setVisible(true);
     }
