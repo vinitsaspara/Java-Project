@@ -26,16 +26,16 @@ public class Rules extends JFrame implements ActionListener{
         rules.setBounds(20, 90, 700, 350);
         rules.setFont(new Font("Times New Roman", Font.PLAIN, 16));
             rules.setText(
-                "<html>"+ 
-                    "1. You are trained to be a programmer and not a story teller, answer point to point" + "<br><br>" +
-                    "2. Do not unnecessarily smile at the person sitting next to you, they may also not know the answer" + "<br><br>" +
-                    "3. You may have lot of options in life but here all the questions are compulsory" + "<br><br>" +
-                    "4. Crying is allowed but please do so quietly." + "<br><br>" +
-                    "5. Only a fool asks and a wise answers (Be wise, not otherwise)" + "<br><br>" +
-                    "6. Do not get nervous if your friend is answering more questions, may be he/she is doing Jai Mata Di" + "<br><br>" +
-                    "7. Brace yourself, this paper is not for the faint hearted" + "<br><br>" +
-                    "8. May you know more than what John Snow knows, Good Luck" + "<br><br>" +
-                "<html>");
+                    "<html>"+
+                            "1.No registration is required to participate in the quiz." + "<br><br>" +
+                            "2. The quiz consists of 10 questions in total." + "<br><br>" +
+                            "3. Each question is worth 10 point for a correct answer." + "<br><br>" +
+                            "4. No points are deducted for incorrect answers." + "<br><br>" +
+                            "5. Players have 15 seconds to answer each question." + "<br><br>" +
+                            "6. No use of mobile phones, books, or external help is allowed." + "<br><br>" +
+                            "7. If a player fails to answer within the time limit, the question is forfeited." + "<br><br>" +
+                            "Best Of Luck" + "<br><br>" +
+                            "<html>");
         add(rules);
         
         back = new JButton("Back"); //Create Botton
