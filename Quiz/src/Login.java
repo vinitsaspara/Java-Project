@@ -25,8 +25,8 @@ public class Login extends JFrame implements ActionListener{
         // heading.setForeground(Color.BLUE); // give to heading text --> color
         heading.setForeground(new Color(30, 144, 254)); // give to heading text --> rgb color value
 
-        JLabel name = new JLabel("Enter your name");
-        name.setBounds(745, 150, 300, 20);
+        JLabel name = new JLabel("Enter your ID");
+        name.setBounds(760, 150, 300, 20);
         add(name);
         name.setFont(new Font("Mongolian Baiti", Font.BOLD, 18));
         // name.setForeground(Color.BLUE); // give to heading text --> color
